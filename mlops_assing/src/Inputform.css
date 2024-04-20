@@ -1,0 +1,73 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set text color to white */
+  font-family: Arial, sans-serif; /* Use a sans-serif font */
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: transparent;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* InputForm.css */
+.input-form {
+  background-color: rgba(255, 255, 255, 0.1); /* Set a semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #141414;
+  border-radius: 4px;
+}
+
+.input-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61dafb;
+  color: black; /* Set button text color to black */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-form button:hover {
+  background-color: #4caf50;
+}
